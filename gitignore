@@ -1,9 +1,36 @@
+# Eclipse settings
 .settings/
-bin/
-Bin/
-target/
-test-output/
-tmp/
-.metadata
-.classpath
 .project
+.classpath
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Maven build
+target/
+dependency-reduced-pom.xml
+
+# Test outputs
+test-output/
+surefire-reports/
+
+# Logs & temp files
+*.log
+tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Java compiled files
+*.class
